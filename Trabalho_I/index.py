@@ -1,0 +1,6 @@
+string1 = input("Digite uma string: \n")
+string2 = input("Digite outra string: \n")
+soma_string = (string1 + string2)
+contagem_string = len(soma_string)
+print(contagem_string)
+print(soma_string)

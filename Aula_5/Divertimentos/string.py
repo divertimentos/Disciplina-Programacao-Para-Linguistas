@@ -1,0 +1,20 @@
+#nome = "Noam Avram Chomsky"
+#nome = nome.lower()
+#print(nome.lower())
+#print(nome.count("a"))
+#nome = nome.replace("m", "mp")
+#nome = nome.replace("o", "i")
+#nome = nome.replace("imp", "omp")
+#print(nome.split("a"))
+
+#name = input("Insira uma string: \n")
+#blank = name.count(" ")
+#print("Há %s espaços em branco." %blank)
+
+name = input("Insira uma string: \n")
+quantidade = name.count("a")
+quantidade = quantidade + name.count("e")
+quantidade = quantidade + name.count("i")
+quantidade = quantidade + name.count("o")
+quantidade = quantidade + name.count("u")
+print(quantidade)
